@@ -1,0 +1,38 @@
+.container-navBar {
+  width: 100%;
+  background-color: #000000;
+  color: #ffffff;
+}
+.container-navBar .texto-navBar {
+  font-size: 25px;
+  margin: 0 10px;
+}
+.container-navBar .navBar {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container-navBar .navBar .logo-navBar {
+  display: flex;
+  align-content: center;
+}
+.container-navBar .navBar .logo-navBar img {
+  width: 80px;
+}
+.container-navBar .navBar .logo-marcas .img-marca {
+  width: 50px;
+  margin: 0 10px;
+}
+.container-navBar .navBar .logo-marcas .kia {
+  width: 90px;
+}
+.container-navBar .navBar .login {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.container-navBar .navBar .login .logo-perfil {
+  width: 60px;
+}
+
+/*# sourceMappingURL=navBar.css.map */

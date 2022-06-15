@@ -1,0 +1,48 @@
+@import 'variable';
+
+.container-navBar{
+    width: 100%;
+    background-color: $colorFondoPrincipalNegro;
+    color: $colorLetrasBlanco;
+    .texto-navBar{
+        font-size: 25px;
+        margin: 0 10px;
+    }
+    
+
+    .navBar{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        .logo-navBar{
+            display: flex;
+            align-content: center;
+            img{
+                width: 80px;
+            }
+        }
+        .logo-marcas{
+            .img-marca{
+                width: 50px;
+                margin: 0 10px;
+            }
+
+            .kia{
+                width: 90px;
+            }
+        }
+
+        .login{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+
+           
+            
+            .logo-perfil{
+                width: 60px;
+
+            }
+        }
+    }
+}
