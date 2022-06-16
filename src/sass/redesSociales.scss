@@ -1,0 +1,15 @@
+@import 'variable';
+
+.container-redes {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 70px;
+    align-items: center;
+    background: $colorFondoPrincipalNegro;
+    color: $colorLetrasBlanco;
+    border-radius: 10px;
+    .logo-redes{
+        width: 50px;
+    }
+}

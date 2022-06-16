@@ -1,0 +1,64 @@
+@import 'variable';
+
+.container-footer{
+    background: $colorFondoPrincipalNegro;
+    display: flex;
+    justify-content: space-evenly;
+
+    .titulos-footer{
+        font-size: 25px;
+        color: red;
+    }
+
+    .bloque1{
+        display: flex;
+        flex-direction: column;
+        .logo-footer{
+            width: 120px;
+
+        }
+        .diseñador{
+            font-size: 20px;
+            color: $colorLetrasBlanco;
+            display: flex;
+            align-items: center;
+            .avatar-diseñador{
+                width: 30px;
+            }
+
+        }
+        .inf-diseñador{
+            font-size: 15px;
+            color: $colorLetrasBlanco;
+            margin-left: 30px;
+
+        }
+    }
+    .bloque2{
+        display: flex;
+        flex-direction: column;
+        color: $colorLetrasBlanco;
+
+        .descripcion-contactanos{
+            display: flex;
+            align-items: center;
+            .logo-contactanos{
+                width: 30px;
+                font-size: 10px;
+                color: $colorLetrasBlanco;
+                margin: 5px 10px;
+            }
+
+        }
+        
+    }
+
+    .bloque3{
+        display: flex;
+        flex-direction: column;
+        .contenido-footer{
+            font-size: 20px;
+            color: $colorLetrasBlanco;
+        }
+    }
+}

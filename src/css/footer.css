@@ -1,0 +1,56 @@
+@charset "UTF-8";
+.container-footer {
+  background: #05141f;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container-footer .titulos-footer {
+  font-size: 25px;
+  color: red;
+}
+.container-footer .bloque1 {
+  display: flex;
+  flex-direction: column;
+}
+.container-footer .bloque1 .logo-footer {
+  width: 120px;
+}
+.container-footer .bloque1 .diseñador {
+  font-size: 20px;
+  color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.container-footer .bloque1 .diseñador .avatar-diseñador {
+  width: 30px;
+}
+.container-footer .bloque1 .inf-diseñador {
+  font-size: 15px;
+  color: #ffffff;
+  margin-left: 30px;
+}
+.container-footer .bloque2 {
+  display: flex;
+  flex-direction: column;
+  color: #ffffff;
+}
+.container-footer .bloque2 .descripcion-contactanos {
+  display: flex;
+  align-items: center;
+}
+.container-footer .bloque2 .descripcion-contactanos .logo-contactanos {
+  width: 30px;
+  font-size: 10px;
+  color: #ffffff;
+  margin: 5px 10px;
+}
+.container-footer .bloque3 {
+  display: flex;
+  flex-direction: column;
+}
+.container-footer .bloque3 .contenido-footer {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+/*# sourceMappingURL=footer.css.map */

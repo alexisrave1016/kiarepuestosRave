@@ -1,0 +1,15 @@
+.container-redes {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 70px;
+  align-items: center;
+  background: #05141f;
+  color: #ffffff;
+  border-radius: 10px;
+}
+.container-redes .logo-redes {
+  width: 50px;
+}
+
+/*# sourceMappingURL=redesSociales.css.map */
