@@ -1,0 +1,65 @@
+@import 'variable';
+
+.contenedor-registro{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://res.cloudinary.com/dd01p9lb9/image/upload/v1655481496/kiarepuestos/hyundai_genesis-coupe-btr-2014_r14_rnbbma.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    .logo-empresa{
+        width: 150px;
+    }
+
+    .formulario-registro{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 350px;
+        border: 2px solid $colorLetrasBlanco;
+        border-radius: 10px;
+        background-color: $blancoTrasparente;
+
+        .titulo{
+            font-size: 25px;
+            color: $colorLetrasBlanco; 
+        }
+
+        .informacion-usuario{
+            width: 80%;
+            margin: 10px 0;
+            border-radius: 5px;
+        }
+
+        .informacion-usuario:focus{
+            background-color: $coloLetrasSecundariasAzulOscuro;
+            color: $colorLetrasBlanco;
+        }
+
+        .enviar:hover{
+            background-color: $coloLetrasSecundariasAzulOscuro;
+            color: $colorLetrasBlanco;
+        }
+
+        .regreso-login{
+            color: $colorLetrasBlanco;
+            text-decoration: none;
+            font-size: 15px;
+        }
+
+
+    }
+    .marcas{
+        margin: 15px;
+        .img-marca{
+            width: 150px;
+        }
+    
+        .kia{
+            width: 250px;
+        }
+    }
+}

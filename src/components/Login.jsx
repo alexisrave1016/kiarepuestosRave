@@ -6,7 +6,10 @@ export default function Login() {
   return (
     <div className="login-contenedor-principal">
          <form className='formulario' >
-             <img className='logo-principal' src="https://res.cloudinary.com/dd01p9lb9/image/upload/v1655339587/kiarepuestos/logoTrasparente_smlrzs.png" alt="logo no disponible" />
+             <Link to='/'>
+                 <img className='logo-principal' src="https://res.cloudinary.com/dd01p9lb9/image/upload/v1655339587/kiarepuestos/logoTrasparente_smlrzs.png" alt="logo no disponible" />
+             </Link>
+            
              <div className="contenedor-login">
                     <h1 className='titulo-inicio-sesion'>
                         Inicio de sesión

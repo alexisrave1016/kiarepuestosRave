@@ -1,0 +1,55 @@
+.contenedor-registro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  background-image: url(https://res.cloudinary.com/dd01p9lb9/image/upload/v1655481496/kiarepuestos/hyundai_genesis-coupe-btr-2014_r14_rnbbma.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.contenedor-registro .logo-empresa {
+  width: 150px;
+}
+.contenedor-registro .formulario-registro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  border: 2px solid #ffffff;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2509803922);
+}
+.contenedor-registro .formulario-registro .titulo {
+  font-size: 25px;
+  color: #ffffff;
+}
+.contenedor-registro .formulario-registro .informacion-usuario {
+  width: 80%;
+  margin: 10px 0;
+  border-radius: 5px;
+}
+.contenedor-registro .formulario-registro .informacion-usuario:focus {
+  background-color: #1e3264;
+  color: #ffffff;
+}
+.contenedor-registro .formulario-registro .enviar:hover {
+  background-color: #1e3264;
+  color: #ffffff;
+}
+.contenedor-registro .formulario-registro .regreso-login {
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 15px;
+}
+.contenedor-registro .marcas {
+  margin: 15px;
+}
+.contenedor-registro .marcas .img-marca {
+  width: 150px;
+}
+.contenedor-registro .marcas .kia {
+  width: 250px;
+}
+
+/*# sourceMappingURL=registro.css.map */

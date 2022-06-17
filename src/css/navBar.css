@@ -6,6 +6,11 @@
 .container-navBar .texto-navBar {
   font-size: 25px;
   margin: 0 10px;
+  text-decoration: none;
+}
+.container-navBar .link {
+  text-decoration: none;
+  color: #ffffff;
 }
 .container-navBar .navBar {
   display: flex;

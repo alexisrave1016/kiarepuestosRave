@@ -53,6 +53,10 @@
   margin: 10px 0;
   border-radius: 3px;
 }
+.login-contenedor-principal .formulario .contenedor-login .datos-usuario:focus {
+  background-color: #1e3264;
+  color: #ffffff;
+}
 .login-contenedor-principal .formulario .contenedor-login .login-redes {
   display: flex;
   flex-direction: column;

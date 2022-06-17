@@ -1,25 +1,27 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
+import '../css/registro.css'
 
 export default function Registro() {
   return (
-    <div>
-          <form>
-                <h1 className="">
+    <div className='contenedor-registro'>
+
+            <Link to='/'>
+            <img
+                className='logo-empresa'
+                src="https://res.cloudinary.com/dd01p9lb9/image/upload/v1655339587/kiarepuestos/logoTrasparente_smlrzs.png"
+                alt="imagen no disponible"
+            /></Link> 
+            <form className='formulario-registro'>
+                <h1 className="titulo">
                     ¡Registrate en nuestro sistema!
                 </h1>
-                <div className="">
-                    <img 
-                    src=""
-                    alt="imagen no disponible"
-                    /> 
-                    <h3>Crea una cuenta</h3>
-                </div>
-
+        
                 <input
                     type="text"
                     placeholder="Nombres"
                     name="nombres"
-                    className="form-control"
+                    className="informacion-usuario"
                     autoComplete="off"
 
                 />
@@ -28,44 +30,46 @@ export default function Registro() {
                     type="text"
                     placeholder="Apellidos"
                     name="apellidos"
-                    className="form-control"
+                    className="informacion-usuario"
                     autoComplete="off"
                 />
 
                 <input
                     type="text"
-                    name="nombre"
-                    className="form-control"
-                    placeholder="nombre"
+                    name="celular"
+                    className="informacion-usuario"
+                    placeholder="Celular"
                 />
 
                 <input
                     type="email"
                     name="email"
-                    className="form-control"
+                    className="informacion-usuario"
                     placeholder="Email"
-                    required=""
-
+                
                 />
 
                 <input
                     type="Password"
                     name="password"
-                    className="form-control"
+                    className="informacion-usuario"
                     placeholder="Password"
                 />
               
                 <button
                     type="submit"
-                    className=""
+                    className="informacion-usuario enviar"
                 >
-                    Register
+                    Registrarse
                 </button>
                
-                <span>
-                    Already registered?
-                </span>
+                <Link to='/login'><span className='regreso-login'>Ya estas Registrado</span></Link>
             </form>
+
+            <div className="marcas">
+                <img className='img-marca kia' src="https://res.cloudinary.com/dd01p9lb9/image/upload/v1655270837/kiarepuestos/Logokia_inv5ts.png" alt="marca no disponible" />
+                <img className='img-marca' src="https://res.cloudinary.com/dd01p9lb9/image/upload/v1655271861/kiarepuestos/1222940_ttcfdx.png" alt="marca no disponible" />
+            </div>
     </div>
   )
 }
