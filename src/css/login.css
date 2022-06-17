@@ -1,0 +1,68 @@
+.login-contenedor-principal {
+  display: flex;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  background-image: url(https://res.cloudinary.com/dd01p9lb9/image/upload/v1655443958/kiarepuestos/KIA_proceed_concept-2017_Auto_Wallpaper_1366x768_dvweew.jpg);
+}
+.login-contenedor-principal .formulario {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.login-contenedor-principal .formulario .logo-principal {
+  width: 150px;
+}
+.login-contenedor-principal .formulario .contenedor-login {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #05141f;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.2509803922);
+}
+.login-contenedor-principal .formulario .contenedor-login .enviar-datos {
+  width: 80%;
+  margin: 10px 0;
+  border-radius: 3px;
+  color: #1e3264;
+}
+.login-contenedor-principal .formulario .contenedor-login .enviar-datos:hover {
+  background-color: #1e3264;
+  color: #ffffff;
+}
+.login-contenedor-principal .formulario .contenedor-login .link {
+  text-align: center;
+  width: 100%;
+}
+.login-contenedor-principal .formulario .contenedor-login .informacion {
+  font-size: 15px;
+  color: #1e3264;
+}
+.login-contenedor-principal .formulario .contenedor-login .titulo-inicio-sesion {
+  font-size: 25px;
+  color: #1e3264;
+}
+.login-contenedor-principal .formulario .contenedor-login .login-redes .opcion-redes .logo-redes {
+  width: 50px;
+  margin: 10px 0;
+}
+.login-contenedor-principal .formulario .contenedor-login .datos-usuario {
+  width: 80%;
+  margin: 10px 0;
+  border-radius: 3px;
+}
+.login-contenedor-principal .formulario .contenedor-login .login-redes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.login-contenedor-principal .img-marca {
+  width: 150px;
+}
+.login-contenedor-principal .kia {
+  width: 250px;
+}
+
+/*# sourceMappingURL=login.css.map */

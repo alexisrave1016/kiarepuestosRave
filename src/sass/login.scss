@@ -1,0 +1,97 @@
+@import 'variable';
+
+.login-contenedor-principal{
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(https://res.cloudinary.com/dd01p9lb9/image/upload/v1655443958/kiarepuestos/KIA_proceed_concept-2017_Auto_Wallpaper_1366x768_dvweew.jpg);
+    
+
+    .formulario{
+
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        .logo-principal{
+            width: 150px;
+        }
+
+        .contenedor-login{
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border: 2px solid $colorFondoPrincipalNegro;
+            border-radius: 10px;
+            background-color: #ffffff40
+            ;
+
+            .enviar-datos{
+                width: 80%;
+                margin: 10px 0;
+                border-radius: 3px;
+                color: $coloLetrasSecundariasAzulOscuro;
+                
+
+               
+            }
+            .enviar-datos:hover{
+                background-color: $coloLetrasSecundariasAzulOscuro;
+                color: $colorLetrasBlanco;
+            }
+
+            .link{
+                text-align: center;
+                width: 100%;
+                
+            }
+    
+            .informacion{
+                font-size: 15px;
+                color: $coloLetrasSecundariasAzulOscuro;
+            }
+            .titulo-inicio-sesion{
+                font-size: 25px;
+                color: $coloLetrasSecundariasAzulOscuro;
+            }
+    
+            .login-redes{
+                .opcion-redes{
+                    .logo-redes{
+                        width: 50px;
+                        margin: 10px 0;
+                    }
+                }
+            }
+    
+            .datos-usuario{
+                width: 80%;
+                margin: 10px 0;
+                border-radius: 3px;
+            }
+    
+            
+
+            .login-redes{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+
+            }
+        }
+
+    }
+
+    .img-marca{
+        width: 150px;
+    }
+
+    .kia{
+        width: 250px;
+    }
+    
+
+   
+}
